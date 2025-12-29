@@ -1,0 +1,13 @@
+{
+  "name": "aissist",
+  "version": "0.1.0",
+  "private": true,
+  "packageManager": "bun@1.1.18",
+  "workspaces": ["apps/*", "packages/*"],
+  "scripts": {
+    "dev:bot": "bun --filter @aissist/bot run dev",
+    "build": "bun run --filter @aissist/bot build",
+    "lint": "echo 'Add linting configuration'",
+    "test": "bun test"
+  }
+}
