@@ -1,0 +1,21 @@
+{
+  "name": "@aissist/core",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "src/index.ts",
+  "license": "MIT",
+  "scripts": {
+    "build": "echo 'core build placeholder'",
+    "drizzle:generate": "drizzle-kit generate --config ../../drizzle.config.ts",
+    "drizzle:migrate": "drizzle-kit migrate --config ../../drizzle.config.ts"
+  },
+  "dependencies": {
+    "drizzle-orm": "^0.31.2",
+    "pino": "^9.3.2",
+    "postgres": "^3.4.5",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.2"
+  }
+}
