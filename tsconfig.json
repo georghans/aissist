@@ -12,12 +12,8 @@
     "strict": true,
     "noEmit": true,
     "resolveJsonModule": true,
-    "baseUrl": ".",
-    "paths": {
-      "@aissist/core/*": ["packages/core/src/*"],
-      "@aissist/core": ["packages/core/src/index.ts"]
-    }
+    "baseUrl": "."
   },
-  "include": ["packages/**/*", "apps/**/*"],
+  "include": ["src/**/*"],
   "exclude": ["node_modules", "dist"]
 }
